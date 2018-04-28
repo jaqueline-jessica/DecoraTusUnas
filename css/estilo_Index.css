@@ -1,0 +1,83 @@
+@font-face{ 
+	font-family:Indie Flower;
+	src:url(../fonts/Indie Flower.ttf);
+}
+
+body{
+	margin: 0;
+}
+
+h1{
+	background-color:#CE92B0; 
+	padding: 15px;
+	padding-left:60px;
+	font-family: "Indie Flower", cursive;
+	font-size: 90px;
+	margin: 0px;
+}
+
+.imgheader{
+	padding-left: 120px;
+	position: absolute;
+	padding-top: 0px;
+
+}
+
+
+ul {
+	background-color:#B7B7B7 ;
+    padding:0;
+	font-family: "Berlin Sans FB"; 
+	font-size: 30px;
+}
+
+#lista1{
+	list-style-type: none; 
+	margin: 0;  
+	padding-top:30px;
+	overflow: hidden;
+}
+
+li a{ 
+	background-color:#B7B7B7 ;
+    float: left;
+    display: block; 
+    color: black; 
+    padding: 16px 45px; 
+    text-decoration: none;
+    
+}
+
+li a: hover{
+    background-color:#693E52; 
+}
+
+h2{
+    font-family: "Century Gothic"; 
+	font-size: 80px;
+	color:#6A0572;
+	text-align:center;
+}
+
+p{
+	font-family: "Comic Sans MS"; 
+	font-size: 30px;
+	color:#272121;
+	text-align: justify;
+	padding: 80px;
+	padding-top: 16px;
+}
+
+.zoom:hover{
+	transform: scale(1.2);
+}
+
+footer{
+	background-color: #B7B7B7;
+	padding: 20px;
+	padding-left: 400px;
+}
+
+.centraricon{
+	padding-right: 100px;
+}
